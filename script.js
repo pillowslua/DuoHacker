@@ -3017,10 +3017,6 @@ const initInterface = () => {
           </div>
         </div>
         <div class="_header_controls">
-        <button id="_free_super_btn" class="_control_btn _success">
-        <span style="font-size: 18px;">🎁</span>
-        <span class="_badge _super_badge">9+</span>
-        </button>
                 <button id="_monthly_badges" class="_control_btn _success"
   style="background: linear-gradient(135deg, #FF6B9D 0%, #C44569 100%); box-shadow: 0 4px 12px rgba(196, 69, 105, 0.3);">
   <span style="font-size: 18px;">🔍</span>
@@ -3259,7 +3255,7 @@ const initInterface = () => {
           Discord
         </button>
       </div>
-      <span class="_footer_version">v2.7.0/span>
+      <span class="_footer_version">v2.7.0</span>
     </div>
   </div>
   <div id="_accounts_modal" class="_modal" style="display:none">
@@ -3317,40 +3313,6 @@ const initInterface = () => {
     </div>
   </div>
 </div>
-
-<!-- SUPER LINK MODAL -->
-<div id="_super_modal" class="_modal" style="display:none">
-  <div class="_modal_overlay"></div>
-  <div class="_modal_container" style="max-width: 500px;">
-    <div class="_modal_header">
-      <h2>
-        <span style="font-size: 24px;">🎁</span>
-        Free Super Link
-      </h2>
-      <button id="_close_super_modal" class="_close_modal_btn">
-        <span style="font-size: 18px;">❌</span>
-      </button>
-    </div>
-    <div class="_modal_content">
-      <div id="_super_result" style="text-align: center; padding: 20px;">
-        <p>Click "Get Free Super Link" below</p>
-        <button id="_get_super_link_btn" class="_setting_btn _primary" style="margin-top: 10px;">
-          🚀 Get Free Super Link
-        </button>
-        <div id="_super_link_display" style="margin-top: 20px; display: none;">
-          <p style="color: var(--success-color); font-weight: 600;">Link received!</p>
-          <a id="_super_link_anchor" href="#" target="_blank" style="display: block; margin: 10px 0; color: var(--primary-color); text-decoration: underline;"></a>
-          <div style="display: flex; gap: 10px; justify-content: center; margin-top: 10px;">
-            <button id="_go_to_link_btn" class="_setting_btn _success">Go to Link</button>
-            <button id="_close_result_btn" class="_setting_btn">Close</button>
-          </div>
-        </div>
-        <div id="_super_error" style="color: var(--error-color); margin-top: 15px; display: none;"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
  <div id="_settings_modal" class="_modal" style="display:none">
   <div class="_modal_overlay"></div>
   <div class="_modal_container">
