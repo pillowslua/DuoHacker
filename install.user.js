@@ -14,3 +14,4 @@
 
 /* This is an obfuscated script, so if you don't want to use, you can use the Lite version (100% open-source) here -> https://greasyfork.org/en/scripts/561041-duolingo-duohacker
 or you can use direct link : https://update.greasyfork.org/scripts/561041/Duolingo%20DuoHacker.user.js
+*/
