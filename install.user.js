@@ -2,12 +2,11 @@
 // @name         DuoHacker Full Version
 // @description  The Full version of DuoHacker
 // @namespace    https://twisk.fun/install
-// @version      1.3.0
+// @version      1.3
 // @author       FutureCLI
 // @match        https://*.duolingo.com/*
 // @match        https://*.duolingo.cn/*
 // @icon         https://github.com/FutureCLI/DuoHacker/blob/main/Logo_TypePNG_DuoHacker.png?raw=true
-// @grant        none
 // @license      MIT
 // @require https://raw.githubusercontent.com/FutureCLI/DuoHacker/refs/heads/main/sources/main.js
 // ==/UserScript==
